@@ -1,6 +1,6 @@
 :root {
     --cor-de-fundo-principal:#242424;
-    --cor-de-fundo-secundaria: #03DAC6;
+    --cor-de-fundo-secundaria: deepskyblue;
     --cor-texto-principal:#f6f6f6;
     --cor-texto-secundaria: #085cc3;
     --fonte-principal:'Montserrat', sans-serif;
@@ -39,21 +39,56 @@ body {
 .container{
     margin: 2% 10%;
     display: flex;
+    
+}
+
+.apresentacao{
+    margin: 0% 5% 5% 0%;
+    text-align: justify;
 }
 
 .apresentacao__principal{
-    margin: 0% 5% 5% 0%;
-    text-align: justify;
-    font-size: 18px;
+    margin-bottom: 2%;
 }
 
-.apresentacao__certificados{
+.apresentacao__certificados__lista{
+    margin-top: 2%;
+}
+
+.apresentacao__certificados__link{
     text-decoration: none;
 }
+
+.imagem__botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.botoes:hover{
+    background:var(--cor-de-fundo-principal);
+    transition: 3ms;
+}
+
 .imagem__perfil{
     border-radius: 8%;
-    width: 350px;
+    width: 200px;
     height: 250px;
+}
+.botoes{
+color:var(--cor-de-fundo-principal);
+background: var(--cor-texto-principal);
+border-radius: 8px;
+padding: 8px;
+text-align: center;
+
+
+}
+
+.botoes__link{
+    text-decoration: none;
+    margin-left: 7px;
 }
 
 
