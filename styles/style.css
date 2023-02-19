@@ -105,7 +105,6 @@ text-align: center;
     margin: 2% 0%;
 }
 
-
 .rodape{
     color:var(--cor-de-fundo-principal);
     background-color: var(--cor-de-fundo-secundaria);
@@ -114,5 +113,11 @@ text-align: center;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+}
+
+.curriculo{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
 }
 
